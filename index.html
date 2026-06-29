@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bright Future Secondary School</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f8fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0b5ed7;
+      color: white;
+      padding: 20px 50px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+    }
+
+    nav {
+      background: #084298;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                  url("https://images.unsplash.com/photo-1580582932707-520aed937b7b");
+      background-size: cover;
+      background-position: center;
+      height: 350px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .section {
+      padding: 50px 10%;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #0b5ed7;
+      margin-bottom: 20px;
+      font-size: 30px;
+    }
+
+    .cards {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      width: 280px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      color: #084298;
+      margin-bottom: 10px;
+    }
+
+    .notice {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+      padding: 20px;
+      margin-top: 20px;
+      text-align: left;
+      border-radius: 5px;
+    }
+
+    .contact {
+      background: #e9f2ff;
+    }
+
+    footer {
+      background: #084298;
+      color: white;
+      text-align: center;
+      padding: 18px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 26px;
+      }
+
+      .hero h2 {
+        font-size: 30px;
+      }
+
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Bright Future Secondary School</h1>
+    <p>Quality Education for a Better Tomorrow</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#programs">Programs</a>
+    <a href="#notice">Notice</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <div>
+      <h2>Welcome to Our School</h2>
+      <p>Learning, Discipline, Creativity, and Excellence</p>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Our School</h2>
+    <p>
+      Bright Future Secondary School is dedicated to providing quality education
+      in a friendly and disciplined environment. We focus on academic excellence,
+      moral values, creativity, and overall student development.
+    </p>
+  </section>
+
+  <section class="section" id="programs">
+    <h2>Our Programs</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Primary Level</h3>
+        <p>Strong foundation in reading, writing, mathematics, and basic life skills.</p>
+      </div>
+
+      <div class="card">
+        <h3>Secondary Level</h3>
+        <p>Focused learning with science, mathematics, computer, social studies, and English.</p>
+      </div>
+
+      <div class="card">
+        <h3>Extra Activities</h3>
+        <p>Sports, music, dance, quiz competitions, art, and cultural programs.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="notice">
+    <h2>Latest Notice</h2>
+
+    <div class="notice">
+      <h3>Admission Open</h3>
+      <p>
+        Admissions are open for the new academic session. Interested parents and
+        students can visit the school office for more information.
+      </p>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Kathmandu, Nepal</p>
+    <p><strong>Phone:</strong> 01-1234567</p>
+    <p><strong>Email:</strong> info@brightfuture.edu.np</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Bright Future Secondary School. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
